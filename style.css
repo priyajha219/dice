@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color:aqua;
+  }
+  h1 {
+    margin-left: 420px;
+    margin-top: 40px;
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+  }
+  
+  h2 {
+    margin-left: 300px;
+    margin-top: 50px;
+    color:black;
+    font-family: cursive;
+    display: inline-flex;
+    font-style: italic;
+  }
+  .player2 {
+    margin-right: 120px;
+    border-left-width: 30px;
+    padding-left: 50px;
+
+  }
+  img {
+    /* margin-left: 200px;  */
+    /* margin-top: 30px; */
+    padding-top:10px;
+    padding-right: 70px;
+  }
+  #p1 {
+    margin-left: 220px;
+  }
+  #p2 {
+    margin-left: 175px;
+  }
+  button {
+    color: white;
+    background-color: black;
+    /* padding: 4px 14px; */
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: cursive;
+    width: 100px;
+    height: 30px;
+    margin-left: 38%; 
+    margin-top: 5%; 
+    border-radius: 20px;
+    /* margin-bottom: 30px;  */
+  }
+  button:hover {
+    background-color: red;
+    color: white;
+    
+  }
